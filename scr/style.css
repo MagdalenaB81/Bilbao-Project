@@ -1,0 +1,13 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Monomakh", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
