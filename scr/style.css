@@ -122,11 +122,13 @@ footer a {
   color: white;
 }
 
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+/*
 .footer_col1 {
   padding-left: 25px;
 }
