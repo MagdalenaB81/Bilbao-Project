@@ -159,6 +159,10 @@ main p {
   padding-top: 15px;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .btn {
   display: block;
   color: white;
@@ -183,9 +187,13 @@ section.secondary {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
@@ -226,6 +234,14 @@ section.secondary {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embedv {
+    aspect-ratio: 16 / 9;
   }
 }
 /*
