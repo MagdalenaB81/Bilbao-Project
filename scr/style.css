@@ -210,6 +210,10 @@ section.secondary {
   text-align: center;
 }
 
+.my-photos {
+  margin: 30px 0;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
